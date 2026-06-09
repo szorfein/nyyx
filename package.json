@@ -1,0 +1,36 @@
+{
+  "name": "nyyx",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "turbo": "^2.9.16",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@11.11.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "description": "An offline solution for writing articles, recipes, etc...",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szorfein/nyyx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szorfein/nyyx/issues"
+  },
+  "homepage": "https://github.com/szorfein/nyyx#readme"
+}
