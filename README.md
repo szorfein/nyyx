@@ -1,7 +1,7 @@
 <h1 align="center">Nyyx   </h1>
 
 <p align="center">
-<img src="https://github.com/szorfein/drowr/blob/main/.github/assets/nyyx.png?raw=true" height="90" weight="90" />
+<img src="https://github.com/szorfein/nyyx/blob/main/.github/assets/nyyx.png?raw=true" height="90" weight="90" />
 </p>
 
 <div align="center">
