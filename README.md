@@ -4,7 +4,8 @@ An offline solution for writing articles, recipes, etc... and publishing them.
 
 This monorepo (via turborepo) include:
 
-- apps/desktop: complete offline app (electron) with Vue, SQLite and Sequelize.
+- apps/desktop: offline app with Electron/Vite and Vue.
+- packages/database: offline db with SQLite and Prisma for the apps/desktop.
 
 ## More used commands
 

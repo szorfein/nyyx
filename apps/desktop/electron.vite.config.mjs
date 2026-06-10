@@ -3,7 +3,13 @@ import { defineConfig } from 'electron-vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  main: {},
+  main: {
+    build: {
+      externalizeDeps: {
+        exclude: ['@nyyx/db']
+      }
+    }
+  },
   preload: {},
   renderer: {
     resolve: {
