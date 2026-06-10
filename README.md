@@ -1,18 +1,34 @@
-# nyyx
+<h1 align="center">Nyyx   </h1>
 
-An offline solution for writing articles, recipes, etc... and publishing them.
+<p align="center">
+<img src="https://github.com/szorfein/drowr/blob/main/.github/assets/nyyx.png?raw=true" height="90" weight="90" />
+</p>
 
-This monorepo (via turborepo) include:
+<div align="center">
+<p>
+<a href="https://github.com/szorfein/nyyx/stargazers"><img src="https://img.shields.io/github/stars/szorfein/nyyx?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
+<a href="https://github.com/szorfein/nyyx/"><img src="https://img.shields.io/github/repo-size/szorfein/nyyx?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
+<a href="https://github.com/szorfein/nyyx/commits/main/"><img src="https://img.shields.io/github/last-commit/szorfein/nyyx?style=for-the-badge&logo=github&logoColor=eba0ac&label=Last%20Commit&labelColor=302D41&color=eba0ac" alt="Last Commit"></a>&nbsp;&nbsp;
+<a href="https://github.com/szorfein/nyyx/blob/main/LICENSE"><img src="https://img.shields.io/github/license/szorfein/nyyx?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</p>
+</div>
 
-- apps/desktop: complete offline app (electron) with Vue, SQLite and Sequelize.
+# Nyyx - Write, publish in a privacy way.
 
-## More used commands
+An offline solution for writing what you like, organizing posts, and publishing them through a private API.
 
-```bash
-turbo build
-turbo dev
-```
+This monorepo (via turborepo) includes:
 
-## Leftover
+- apps/desktop: Desktop app with Electron/Vite and Vue, generate AppImage.
+- packages/database: DB with SQLite | Prisma for the apps/desktop.
 
-Trying other desktop generator (wails, tauri, electrobun) with no success (dependencies, blank app, etc)... Electron has the advantage to be more portable.
+## ✨ Features
+
+## 📦 Leftover
+
+Trying other desktop generators (Wails, Tauri, Electrobun) with no success (dependencies, blank app, etc.)... Electron has the advantage of being more portable.
+
+## 💝 Support
+
+[![liberapay](https://img.shields.io/badge/Liberapay-f6c915?style=for-the-badge&logo=liberapay&logoColor=black)](https://liberapay.com/szorfein)
+[![patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/szorfein)

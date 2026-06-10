@@ -1,10 +1,22 @@
 <script setup>
 import Versions from './components/Versions.vue'
+//import { prisma } from '@nyyx/db'
 
 const ipcHandle = () => window.electron.ipcRenderer.send('ping')
 
 // from the electron preload api
 const settings = api.hi()
+
+async function getTasks() {
+  // Ask the main process to create the task
+  const newTask = await window.electronAPI.getTasks()
+  console.log('Task saved with ID:', newTask.id)
+  return newTask
+}
+
+const checkdb = getTasks()
+
+//const mypost = apipost.getPost()
 </script>
 
 <template>
@@ -25,4 +37,5 @@ const settings = api.hi()
   </div>
   <Versions />
   {{ settings }}
+  {{ checkdb && checkdb?.id ? JSON.stringify(checkdb) : 'no post yet' }}
 </template>
