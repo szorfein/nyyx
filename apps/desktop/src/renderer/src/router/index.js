@@ -1,11 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-import HomeView from './HomeView.vue'
-import AboutView from './AboutView.vue'
+import Home from '../pages/Home.vue'
+import About from '../pages/About.vue'
 
 const routes = [
-  { path: '/', component: HomeView },
-  { path: '/about', component: AboutView }
+  { path: '/', component: Home },
+  { path: '/about', component: About }
 ]
 
 // should use createWebHashHistory instead of createWebHistory
