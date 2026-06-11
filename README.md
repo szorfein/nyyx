@@ -13,14 +13,14 @@
 </p>
 </div>
 
-# Nyyx - Write, publish in a privacy way.
+# Nyyx - Write, publish in a private way.
 
 An offline solution for writing what you like, organizing posts, and publishing them through a private API.
 
 This monorepo (via turborepo) includes:
 
 - apps/desktop: Desktop app with Electron/Vite and Vue, generate AppImage.
-- packages/database: DB with SQLite | Prisma for the apps/desktop.
+- packages/database: Local DB SQLite | Prisma for the apps/desktop.
 
 ## ✨ Features
 

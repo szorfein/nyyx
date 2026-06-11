@@ -38,4 +38,11 @@ const checkdb = getTasks()
   <Versions />
   {{ settings }}
   {{ checkdb && checkdb?.id ? JSON.stringify(checkdb) : 'no post yet' }}
+  <nav>
+    <RouterLink to="/">Go home</RouterLink>
+    <RouterLink to="/about">Go about</RouterLink>
+  </nav>
+  <main>
+    <RouterView />
+  </main>
 </template>
