@@ -1,0 +1,12 @@
+{
+  "name": "@nyyx/ui-vue",
+  "version": "1.0.0",
+  "description": "UI components, block for nyyx",
+  "license": "ISC",
+  "author": "szorfein@protonmail.com",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

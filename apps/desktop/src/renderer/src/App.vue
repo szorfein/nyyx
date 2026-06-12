@@ -1,5 +1,6 @@
 <script setup>
 import Versions from './components/Versions.vue'
+import { Button } from '@nyyx/ui-vue'
 //import { prisma } from '@nyyx/db'
 
 const ipcHandle = () => window.electron.ipcRenderer.send('ping')
@@ -44,5 +45,6 @@ const checkdb = getTasks()
   </nav>
   <main>
     <RouterView />
+    <Button />
   </main>
 </template>
