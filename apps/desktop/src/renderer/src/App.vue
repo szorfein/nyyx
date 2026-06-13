@@ -1,5 +1,6 @@
 <script setup>
 import Versions from './components/Versions.vue'
+import '@nyyx/ui-vue/styles.css'
 import { Button } from '@nyyx/ui-vue'
 //import { prisma } from '@nyyx/db'
 

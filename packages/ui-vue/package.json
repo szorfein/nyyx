@@ -4,9 +4,32 @@
   "description": "UI components, block for nyyx",
   "license": "ISC",
   "author": "szorfein@protonmail.com",
-  "type": "commonjs",
-  "main": "index.ts",
+  "main": "./dist/ui-vue.umd.cjs",
+  "module": "./dist/ui-vue.js",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/ui-vue.js",
+      "require": "./dist/ui-vue.umd.cjs"
+    },
+    "./styles.css": "./dist/ui-vue.css"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@nyyx/tailwind-config": "*",
+    "@tailwindcss/vite": "^4.3.1",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "tailwindcss": "^4.3.1",
+    "vite": "^8.0.16"
   }
 }

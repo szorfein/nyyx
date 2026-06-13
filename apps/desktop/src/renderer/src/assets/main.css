@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+@import '@nyyx/tailwind-config';
 @import './base.css';
 
 body {

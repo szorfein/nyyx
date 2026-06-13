@@ -17,10 +17,11 @@
 
 An offline solution for writing what you like, organizing posts, and publishing them through a private API.
 
-This monorepo (via turborepo) includes:
+This monorepo ([turborepo](https://turborepo.dev/en)) includes:
 
-- apps/desktop: Desktop app with Electron/Vite and Vue, generate AppImage.
-- packages/database: Local DB SQLite | Prisma for the apps/desktop.
+- apps/desktop: Desktop app with [Electron-Vite](https://electron-vite.org/) and [Vue](https://vuejs.org/), generate [AppImage](https://appimage.org/).
+- packages/database: Local DB SQLite | [Prisma](https://www.prisma.io/) for the apps/desktop.
+- packages/ui-vue: UI Components, Block made for Vue with [Volt](https://volt.primevue.org/) | [Tailwind](https://tailwindcss.com/).
 
 ## ✨ Features
 
